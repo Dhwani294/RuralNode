@@ -13,7 +13,7 @@ The system’s intelligence resides in `model_def.py`, utilizing a **Hybrid Quan
 ### **1. Variational Quantum Circuit (VQC)**
 * **Technology:** 7-Qubit Circuit via [PennyLane](https://pennylane.ai/).
 * **Function:** Maps 7 primary input vectors (Inventory Velocity, Seasonality, Lead Times, etc.) into a high-dimensional **Quantum Hilbert Space**. 
-* **Advantage:** In rural areas where data is often "noisy," the Quantum layer identifies deep, non-linear correlations—such as the link between local festivals and specific inventory burn rates—that classical models overlook.
+* **Advantage:** In rural areas where data is often "noisy," the Quantum layer identifies deep, non-linear correlations such as the link between local festivals and specific inventory burn rates that classical models overlook.
 
 ### **2. Spatiotemporal Graph Attention (GATv2)**
 * **Technology:** [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/).
