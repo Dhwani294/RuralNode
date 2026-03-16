@@ -87,11 +87,8 @@ pip install -r requirements.txt
 # 4. Start the FastAPI server using Uvicorn
 uvicorn main:app --port 8000 --reload
 
-### **2. Launch the Dashboard (React + Vite)**
+# Launch the Dashboard 
 
-Open a **new terminal** window and navigate into the frontend folder to start the UI:
-
-```bash
 # 1. Navigate to the frontend directory
 cd frontend
 
